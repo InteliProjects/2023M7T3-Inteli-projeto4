@@ -1,0 +1,158 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #240647 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+div {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* {
+    background-color: #240647;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-home {
+    /* margin: 40px; */
+    height: 150px;
+    width: 280px;
+    margin-top:0px ;
+}
+
+.center {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    flex-direction: column;
+    height: 100%;  
+}
+
+p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+span {
+    color: #585DDC;
+}
+
+input {
+    height: 69px;
+    background-color: #1D0A32;
+    width: 524px;
+    border-radius: 160px;
+    border: none;
+    color: white;
+}
+
+input::placeholder {
+    color: lightgrey;
+}
+
+.input {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    gap: 20px;
+
+}
+.input-margin{
+    padding: 5%;
+}
+
+.audioImg { 
+    width: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #36175A;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+.inputButton {
+    height: 50px;
+    width: 50px;
+    background-color: #36175A;
+    border: none;
+    border-radius: 50px;
+    
+}
+.buttons{
+    margin-top: 10px;
+}
+.search {
+    width: 50px;
+    height: 50px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 48px;
+}
+.account{
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;             
+    width: 100%;                     
+    max-width: 650px;                
+    gap: 20px;                       
+}
+
+/* .main {
+    justify-content: center;  
+    align-items: center;     
+} */
+
+.response-page{
+    height: 100vh;
+    background-color:  #240647;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.response-container{
+    display: flex;
+    flex-direction: column;
+    height: 469px;
+    width: 954px;
+    background-color: #D9D9D9;
+    border-radius: 16px;
+}
+
+.response-text{
+    padding: 20px;
+    font-size: 24px;
+    color: #000000;
+    background-color: transparent;
+}

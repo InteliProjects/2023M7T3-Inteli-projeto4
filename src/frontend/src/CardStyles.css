@@ -1,0 +1,80 @@
+
+.proj-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  opacity: 0.85;
+  padding: 20px;
+}
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.proj-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+.proj-txtx input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4648B8;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+}
+.proj-txtx button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4A2FBD;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.proj-txtx button:hover {
+  background-color: #AA367C;
+}
+
+.proj-input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+.proj-input:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.proj-button {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4A2FBD;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.proj-button:hover {
+  background-color: #AA367C;
+}

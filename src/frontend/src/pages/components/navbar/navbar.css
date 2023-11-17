@@ -1,0 +1,17 @@
+.logo-home {
+    /* margin: 40px; */
+    height: 150px;
+    width: 280px;
+    margin-top:0px ;
+}
+.account{
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.navbar{
+    padding: 100px;
+}

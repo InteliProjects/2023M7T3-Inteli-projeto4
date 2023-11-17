@@ -1,0 +1,82 @@
+body, html {
+    background-color: #240647 !important;
+}
+
+div {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  overflow-y: auto; /* Adicione uma barra de rolagem vertical se necessário */
+  justify-content: center; /* Centraliza horizontalmente as mensagens */
+}
+
+.message {
+  color: #36175A;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  max-width: 60%; /* Ocupa toda a largura disponível */
+  background-color: white;
+}
+
+.user {
+  align-self: flex-end;
+}
+
+.bot {
+  align-self: flex-start;
+  margin-left: 60px;
+}
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: auto; /* Altere a altura para 'auto' para permitir que ela cresça conforme necessário */
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .audioButton {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  
+  .inputButton {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50px;
+  }  

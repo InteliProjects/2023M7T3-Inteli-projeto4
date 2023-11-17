@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #240647;
+  overflow: hidden; /* Evita rolagem indesejada */
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0; /* Removendo o border-radius já que ocupa toda a tela */
+}
+
+.login-image, .login-card {
+  flex: 1; /* Garante que ambos os elementos ocupem metade da largura da tela */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorção */
+}
+
+.login-card {
+  padding: 20px;
+  background-color: #240647;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  overflow-y: auto; /* Caso o conteúdo do cartão de login seja muito longo, permitirá rolagem */
+}
+
+.login-card img {
+  max-height: 80px;
+  width: auto;
+  margin: 0 auto; /* Centralizando o logo */
+  border-radius: 8px;
+}
+
+.login-card input, .login-card button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.login-card input {
+  border-color: #ccc;
+  color: white;
+}
+
+
+.login-button {
+  background-color: #585DDC;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px; /* Adicionando margem abaixo do botão de login */
+  border: 3px solid white; /* Borda branca no botão de login */
+  font-weight: bold; /* Texto "Log in" em negrito */
+}
+
+.login-button:hover {
+  background-color: #4648B8;
+}
+
+.divider {
+  height: 1px;
+  background-color: white;
+  margin: 10px 0;
+  position: relative; /* Para posicionar o texto "or" */
+}
+
+.divider::before { /* Estilização para o texto "or" */
+  content: "or";
+  position: absolute;
+  top: -12px; /* Meio do divisor */
+  left: 50%; /* Centralizar horizontalmente */
+  transform: translateX(-50%); /* Ajuste fino para centralizar */
+  background-color: #020F2B; /* Cor de fundo do cartão de login */
+  padding: 0 10px;
+  color: white;
+}
+
+.request-access-button {
+  background-color: white; /* Fundo branco */
+  color: #585DDC; /* Cor do texto da cor de fundo do login */
+  cursor: pointer;
+  margin-top: 0px; /* Adicionando margem acima do botão de solicitação de acesso */
+  border: 1px solid #020F2B; /* Borda da cor de fundo do login */
+  font-weight: bold; 
+}
+
+.request-access-button:hover {
+  background-color: #e6e6e6; /* Cor de fundo mais clara no hover */
+}
+
+.login-card img {
+  max-height: 180px;
+  width: auto;
+  /* ... outras propriedades ... */
+}
